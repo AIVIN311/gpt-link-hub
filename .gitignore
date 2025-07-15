@@ -23,3 +23,13 @@ dist-ssr
 *.sln
 *.sw?
 
+# 排除不必要的大型資料夾與檔案
+node_modules/
+dist/
+build/
+.env
+*.log
+*.cache
+.vscode/
+.git/
+coverage/

@@ -1,4 +1,13 @@
 # React + TypeScript + Vite
+# GPT Link Hub｜AI 聊天連結管理站
+
+這是一個用於集中管理 GPT 聊天連結與提示語（Prompts）的前端專案，
+使用 React + TypeScript + Vite 架構，適合用於個人整理與社群共享。
+
+🚀 功能特色：
+- 📎 快速儲存與分享聊天連結
+- 🔍 支援搜尋、標籤分類
+- 🧠 整合提示語與對話範本
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -67,3 +76,9 @@ export default tseslint.config([
   },
 ])
 ```
+## 🛠 開發指令
+
+```bash
+npm install      # 安裝依賴套件
+npm run dev      # 啟動開發伺服器（預設 http://localhost:5173）
+npm run build    # 打包專案到 dist/
