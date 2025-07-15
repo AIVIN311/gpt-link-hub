@@ -2,9 +2,9 @@
   "name": "gpt-link-hub",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "npm --prefix project-root run dev",
+    "build": "npm --prefix project-root run build",
+    "preview": "npm --prefix project-root run preview"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
