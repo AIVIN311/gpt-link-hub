@@ -1,6 +1,6 @@
-module.exports = {
-  plugins: {
-    '@tailwindcss/postcss': {}, // ✅ 正確用法
-    autoprefixer: {},
-  },
-}
+// postcss.config.js (ESM 語法)
+import tailwindcss from '@tailwindcss/postcss';
+
+export default {
+  plugins: [tailwindcss],
+};
